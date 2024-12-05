@@ -1,0 +1,16 @@
+pageobjects\Login.class
+pageobjects\PurchaseProduct.class
+browserconfiguration\BrowserConfiguration.class
+jPetStoreSteps\steps\SearchAndCheckProductSteps.class
+randomcredentialsgenerator\RandomCredentialsGenerator.class
+jPetStoreSteps\steps\LoginSteps.class
+testcontext\TestContext.class
+utils\StepUtils.class
+jPetStoreSteps\steps\AddProductToCartSteps.class
+pageobjects\Registration.class
+jPetStoreSteps\steps\RegistrationSteps.class
+pageobjects\AddProductToCart.class
+jPetStoreSteps\steps\PurchaseProductSteps.class
+jPetStoreTestRunner\TestRunner.class
+pageobjects\SearchAndCheckProduct.class
+jPetStoreSteps\steps\HomePageSteps.class

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="24.254" tests="12" skipped="0" failures="0" errors="0">
+<testcase classname="Search and Check Product" name="Successful search for an existing product - Example #1.1" time="4.306">
+<system-out><![CDATA[
+Given I am on the homepage using "chrome"...................................passed
+When I enter "Finch" in the search bar......................................passed
+And I click the Search button...............................................passed
+Then I should see a list of products related to "Finch".....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and Check Product" name="Successful search for an existing product - Example #1.2" time="12.433">
+<system-out><![CDATA[
+Given I am on the homepage using "firefox"..................................passed
+When I enter "Finch" in the search bar......................................passed
+And I click the Search button...............................................passed
+Then I should see a list of products related to "Finch".....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Purchase" name="Successful purchase of a product - Example #1.1" time="10.25">
+<system-out><![CDATA[
+Given I am on the homepage using "chrome"...................................passed
+And I am autenticated with "ElkmoonX" and "Xpto0E€".........................passed
+And I add a product to the cart using "Finch"...............................passed
+When I proceed to checkout..................................................passed
+And I fill out my payment details...........................................passed
+And I click the Continue button.............................................passed
+And I confirm the order.....................................................passed
+Then I should see a confirmation message....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Purchase" name="Successful purchase of a product - Example #1.2" time="12.37">
+<system-out><![CDATA[
+Given I am on the homepage using "firefox"..................................passed
+And I am autenticated with "ElkmoonX" and "Xpto0E€".........................passed
+And I add a product to the cart using "Finch"...............................passed
+When I proceed to checkout..................................................passed
+And I fill out my payment details...........................................passed
+And I click the Continue button.............................................passed
+And I confirm the order.....................................................passed
+Then I should see a confirmation message....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add product to Cart" name="Adding a product to the cart - Example #1.1" time="4.947">
+<system-out><![CDATA[
+Given I am on the homepage using "chrome"...................................passed
+And I enter "Finch" in the search bar.......................................passed
+And I click on the item after searching "Finch".............................passed
+Then I click on the Add to cart button......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add product to Cart" name="Adding a product to the cart - Example #1.2" time="11.51">
+<system-out><![CDATA[
+Given I am on the homepage using "firefox"..................................passed
+And I enter "Finch" in the search bar.......................................passed
+And I click on the item after searching "Finch".............................passed
+Then I click on the Add to cart button......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="New User Registration" name="Successful user registration - Example #1.1" time="22.038">
+<system-out><![CDATA[
+Given I am on the homepage using "chrome"...................................passed
+And I navigate to the Create an account page................................passed
+When I fill in account registration with valid values.......................passed
+And I click the Create an Account button....................................passed
+Then I should see be redirected to the main page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Successful login with valid credentials - Example #1.2" time="11.181">
+<system-out><![CDATA[
+Given I am on the homepage using "firefox"..................................passed
+And I navigate to the login page............................................passed
+When I enter my "ElkmoonX" and "Xpto0E€"....................................passed
+And I click the Login button................................................passed
+Then I should see a welcome message.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="New User Registration" name="Successful user registration - Example #1.2" time="23.99">
+<system-out><![CDATA[
+Given I am on the homepage using "firefox"..................................passed
+And I navigate to the Create an account page................................passed
+When I fill in account registration with valid values.......................passed
+And I click the Create an Account button....................................passed
+Then I should see be redirected to the main page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Successful login with valid credentials - Example #1.1" time="7.289">
+<system-out><![CDATA[
+Given I am on the homepage using "chrome"...................................passed
+And I navigate to the login page............................................passed
+When I enter my "ElkmoonX" and "Xpto0E€"....................................passed
+And I click the Login button................................................passed
+Then I should see a welcome message.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and Check Product" name="Viewing product details - Example #1.1" time="4.039">
+<system-out><![CDATA[
+Given I am on the homepage using "chrome"...................................passed
+And I searched for "Finch" and results are displayed........................passed
+When I click on the first item..............................................passed
+Then I should be redirected to the product details page.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and Check Product" name="Viewing product details - Example #1.2" time="7.563">
+<system-out><![CDATA[
+Given I am on the homepage using "firefox"..................................passed
+And I searched for "Finch" and results are displayed........................passed
+When I click on the first item..............................................passed
+Then I should be redirected to the product details page.....................passed
+]]></system-out>
+</testcase>
+</testsuite>
